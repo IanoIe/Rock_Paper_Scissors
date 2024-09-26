@@ -11,7 +11,7 @@ window.onload = function() {
         // <img id="rock" src="rock.png">
         let choice = document.createElement("img");
         choice.id = choices[1];
-        choice.src = choices[i]+".png";
+        choice.src = "./images/"+choices[i]+".png";
         choice.addEventListener("click", selectChoice);
         document.getElementById("choices").append(choice);
     }
